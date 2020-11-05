@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">takoos</string>
+
+    <!-- MainActivity Login App Strings -->
+    <string name="iniciar_sesion">Ingresar</string>
+    <string name="correo_usuario">\t\t\t\tCorreo</string>
+    <string name="contrasena_usuario">\t\t\t\tContraseña</string>
+    <string name="validar_recordar">Recordar contraseña</string>
+    <string name="Registrarse">Crear cuenta nueva</string>
+    <string name="reset_pwd">¿Olvidaste tu contraseña?</string>
+
+    <!--RegistryUser Register App Strings -->
+    <string name="nombre">Nombre(s)</string>
+    <string name="apellido_paterno">Apellido paterno</string>
+    <string name="mail_example">\tEmail\t\tnombre@ejemplo.com</string>
+    <string name="crear_contrasena">\t\t\t\tCrear contraseña</string>
+    <string name="repetir_contrasena">\t\t\t\tRepetir Contraseña</string>
+    <string name="telefono">\t\t\t\tCelular</string>
+    <string name="crear_registro">Registrarme</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--Forgot Password-->
+    <string name="cancel">Cancelar</string>
+    <string name="resend">Restablecer Contraseña</string>
+    <string name="message_reset">Ingrese el correo con el cual se registro la cuenta</string>
+    <string name="email_example_forgot">\t\t\tnombre@ejemplo.com</string>
+    <string name="apellido_materno">apellido materno</string>
+
+</resources>

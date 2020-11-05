@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/MapFragment">
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
+        android:label="Takos"
+        tools:layout="@layout/fragment_map">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AccountFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
+        android:label="Takos"
+        tools:layout="@layout/fragment_map">
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrdersFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
+        android:label="Takos"
+        tools:layout="@layout/fragment_map">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.LoginFragment"
+        android:label=""
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_MainFragment_to_registerFragment"
+            app:destination="@id/RegisterFragment" />
+
+        <action
+            android:id="@+id/action_MainFragment_to_mainFragment"
+            app:destination="@id/MapFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.RegisterFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_register">
+    </fragment>
+
+
+</navigation>

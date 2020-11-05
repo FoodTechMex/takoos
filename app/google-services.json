@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182037667251",
+    "firebase_url": "https://food-tech-develop.firebaseio.com",
+    "project_id": "food-tech-develop",
+    "storage_bucket": "food-tech-develop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182037667251:android:5543cfe45ab3abb3eeffc6",
+        "android_client_info": {
+          "package_name": "com.foodtech.takoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182037667251-0i3g67io1nn0qen17qoosrvpfdn9std3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodtech.takoos",
+            "certificate_hash": "f22e24dca1f0efaded798cf0fd8f575c56160c0b"
+          }
+        },
+        {
+          "client_id": "182037667251-809q2dsj4guockvi8m690fve8fdebv4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrPtyVhGyw7xwow5EhWPtw2zuTOmKMBns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182037667251-809q2dsj4guockvi8m690fve8fdebv4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
