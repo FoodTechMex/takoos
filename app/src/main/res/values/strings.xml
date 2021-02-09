@@ -26,5 +26,13 @@
     <string name="message_reset">Ingrese el correo con el cual se registro la cuenta</string>
     <string name="email_example_forgot">\t\t\tnombre@ejemplo.com</string>
     <string name="apellido_materno">apellido materno</string>
+    <string name="cuenta">mi cuenta</string>
+    <string name="home">home</string>
+    <string name="salir">salir</string>
+    <string name="necesitamos_los_siguientes_datos_para_que_puedas_disfrutar_de_todos_los_beneficios_de_here">Necesitamos los siguientes datos para que puedas disfrutar de todos los beneficios de Here</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="celular">Celular</string>
+    <string name="contrase_a">Contraseña</string>
 
 </resources>

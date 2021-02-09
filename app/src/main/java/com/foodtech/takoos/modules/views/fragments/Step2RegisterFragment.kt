@@ -5,9 +5,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import com.foodtech.takoos.R
+import com.foodtech.takoos.databinding.FragmentStep2RegisterBinding
 
-class OrdersFragment : Fragment() {
+
+class Step2RegisterFragment : Fragment() {
+
+private lateinit var binding : FragmentStep2RegisterBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -15,7 +21,10 @@ class OrdersFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_orders, container, false)
+    ): View {
+        // Inflate the layout for this fragment
+        binding = DataBindingUtil.inflate(layoutInflater,R.layout.fragment_step2_register, container, false)
+        return binding.root
     }
+
 }

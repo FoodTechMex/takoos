@@ -3,28 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/MapFragment">
-
-    <fragment
-        android:id="@+id/MapFragment"
-        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
-        android:label="Takos"
-        tools:layout="@layout/fragment_map">
-    </fragment>
-
-    <fragment
-        android:id="@+id/AccountFragment"
-        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
-        android:label="Takos"
-        tools:layout="@layout/fragment_map">
-    </fragment>
-
-    <fragment
-        android:id="@+id/OrdersFragment"
-        android:name="com.foodtech.takoos.modules.views.fragments.MapFragment"
-        android:label="Takos"
-        tools:layout="@layout/fragment_map">
-    </fragment>
+    app:startDestination="@id/LoginFragment">
 
 
     <fragment
@@ -34,20 +13,31 @@
         tools:layout="@layout/fragment_login">
 
         <action
-            android:id="@+id/action_MainFragment_to_registerFragment"
-            app:destination="@id/RegisterFragment" />
+            android:id="@+id/action_LoginFragment_to_registerFragment"
+            app:destination="@id/step1RegisterFragment" />
 
+    </fragment>
+
+    <fragment
+        android:id="@+id/step1RegisterFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.Step1RegisterFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_step1_register">
         <action
-            android:id="@+id/action_MainFragment_to_mainFragment"
-            app:destination="@id/MapFragment" />
+            android:id="@+id/action_step1RegisterFragment_to_step2RegisterFragment"
+            app:destination="@id/step2RegisterFragment" />
+    </fragment>
 
+    <fragment
+        android:id="@+id/step2RegisterFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.Step2RegisterFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_step1_register">
     </fragment>
     <fragment
-        android:id="@+id/RegisterFragment"
-        android:name="com.foodtech.takoos.modules.views.fragments.RegisterFragment"
-        android:label="Registro"
-        tools:layout="@layout/fragment_register">
-    </fragment>
+        android:id="@+id/homeFragment"
+        android:name="com.foodtech.takoos.modules.views.fragments.HomeFragment"
+        android:label="HomeFragment" />
 
 
 </navigation>

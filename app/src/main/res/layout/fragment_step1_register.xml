@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="registerViewModel"
+            type="com.foodtech.takoos.modules.viewmodel.RegisterViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".modules.views.fragments.Step1RegisterFragment">
+
+        <TextView
+            android:id="@+id/tv_step1_of_two_fragment1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Paso 1 de 2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_description_text_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/necesitamos_los_siguientes_datos_para_que_puedas_disfrutar_de_todos_los_beneficios_de_here"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_step1_of_two_fragment1"
+            app:layout_constraintWidth_percent="0.90" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_edittext"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:hint="@string/nombre"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description_text_register"
+            app:layout_constraintWidth_percent="0.90" />
+
+        <EditText
+            android:id="@+id/etApellido1"
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:layout_height="50dp"
+            android:background="@drawable/background_edittext"
+            android:hint="@string/apellido_paterno"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etName"
+            app:layout_constraintWidth_percent="0.90" />
+
+        <EditText
+            android:id="@+id/etApellido2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_edittext"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:hint="@string/apellido_materno"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etApellido1"
+            app:layout_constraintWidth_percent="0.90" />
+
+
+        <Button
+            android:id="@+id/bRegistrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/siguiente"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.90" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
